@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Employer extends Persont{
     private double Salary;
     private Date DateStart;
+
     private Faculty faculty;
 
     public Employer(String name, int birthday, double salary, Date dateStart, Faculty faculty) {
@@ -64,4 +65,5 @@ public class Employer extends Persont{
                 "- Ngay bat dau lam: " + getDateStart().toString() + "\n" +
                 "- Khoa: " + getFaculty().getTenKhoa();
     }
+
 }
