@@ -27,4 +27,7 @@ public class Faculty {
     public void setTenKhoa(String tenKhoa) {
         TenKhoa = tenKhoa;
     }
+    public void Load(){
+        
+    }
 }
