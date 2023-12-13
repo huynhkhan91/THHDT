@@ -9,6 +9,9 @@ public class Faculty {
         TenKhoa = tenKhoa;
     }
 
+    public Faculty() {
+    }
+
     public String getMaKhoa() {
         return MaKhoa;
     }
@@ -23,5 +26,8 @@ public class Faculty {
 
     public void setTenKhoa(String tenKhoa) {
         TenKhoa = tenKhoa;
+    }
+    public void Load(){
+        
     }
 }

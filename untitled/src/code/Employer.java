@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Employer extends Persont{
     private double Salary;
     private Date DateStart;
-
     private Faculty faculty;
+
 
     public Employer(String name, int birthday, double salary, Date dateStart, Faculty faculty) {
         super(name, birthday);
