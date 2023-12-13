@@ -8,6 +8,7 @@ public class Employer extends Persont{
     private Date DateStart;
     private Faculty faculty;
 
+
     public Employer(String name, int birthday, double salary, Date dateStart, Faculty faculty) {
         super(name, birthday);
         Salary = salary;
@@ -64,4 +65,5 @@ public class Employer extends Persont{
                 "- Ngay bat dau lam: " + getDateStart().toString() + "\n" +
                 "- Khoa: " + getFaculty().getTenKhoa();
     }
+
 }
